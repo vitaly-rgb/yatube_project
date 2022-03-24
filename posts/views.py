@@ -5,4 +5,4 @@ def index(request):
     return HttpResponse('Главная страница')
 
 def group_posts(request):
-    return HttpResponse('Список мороженого')
+    return HttpResponse('Стариницы с постами, отфильтрованные по группам. ')
